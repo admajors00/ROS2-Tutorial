@@ -1,0 +1,4 @@
+Invoking command in '/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/turtlesim -- -j4 -l4
+Invoked command in '/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/turtlesim -- -j4 -l4
+Invoking command in '/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/turtlesim
+Invoked command in '/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/turtlesim

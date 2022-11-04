@@ -1,0 +1,58 @@
+[0.088s] Invoking command in '/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/src/my_package -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package
+[0.318s] -- The C compiler identification is GNU 9.4.0
+[0.511s] -- The CXX compiler identification is GNU 9.4.0
+[0.529s] -- Check for working C compiler: /usr/bin/cc
+[0.842s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.846s] -- Detecting C compiler ABI info
+[1.214s] -- Detecting C compiler ABI info - done
+[1.300s] -- Detecting C compile features
+[1.301s] -- Detecting C compile features - done
+[1.314s] -- Check for working CXX compiler: /usr/bin/c++
+[1.605s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.609s] -- Detecting CXX compiler ABI info
+[1.888s] -- Detecting CXX compiler ABI info - done
+[1.941s] -- Detecting CXX compile features
+[1.944s] -- Detecting CXX compile features - done
+[1.952s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.051s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.851s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.112s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.115s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.116s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/src/my_package/include>
+[3.117s] -- Configured cppcheck exclude dirs and/or files: 
+[3.120s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.121s] -- Configured cpplint exclude dirs and/or files: 
+[3.125s] -- Added test 'lint_cmake' to check CMake code style
+[3.129s] -- Added test 'uncrustify' to check C / C++ code style
+[3.129s] -- Configured uncrustify additional arguments: 
+[3.131s] -- Added test 'xmllint' to check XML markup files
+[3.136s] -- Configuring done
+[3.146s] -- Generating done
+[3.151s] -- Build files have been written to: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/my_package
+[3.161s] Invoked command in '/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/src/my_package -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package
+[3.171s] Invoking command in '/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/my_package -- -j4 -l4
+[3.267s] [35m[1mScanning dependencies of target my_node[0m
+[3.294s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[3.401s] [100%] [32m[1mLinking CXX executable my_node[0m
+[3.514s] [100%] Built target my_node
+[3.546s] Invoked command in '/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/my_package -- -j4 -l4
+[3.614s] Invoking command in '/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/my_package
+[3.641s] -- Install configuration: ""
+[3.643s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/lib/my_package/my_node
+[3.644s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[3.645s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[3.646s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[3.648s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[3.649s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/my_package/environment/path.sh
+[3.651s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/my_package/environment/path.dsv
+[3.652s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/my_package/local_setup.bash
+[3.653s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/my_package/local_setup.sh
+[3.654s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/my_package/local_setup.zsh
+[3.654s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/my_package/local_setup.dsv
+[3.655s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/my_package/package.dsv
+[3.657s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/ament_index/resource_index/packages/my_package
+[3.658s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[3.660s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[3.661s] -- Installing: /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/install/my_package/share/my_package/package.xml
+[3.669s] Invoked command in '/home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vboxuser/Documents/Ros2Workspaces/ros2_ws_Tutorial2-1/build/my_package
